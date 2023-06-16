@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>Test Front-End</title>
+        <!-- Favicon-->
+        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/styles.css" rel="stylesheet" />
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+        <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+        <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+        <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    </head>
+
+    <body class="content">
+        <div class="d-flex" id="wrapper">
+            <!-- Sidebar-->
+            <div class="border-end bg-white" id="sidebar-wrapper">
+                <div class="sidebar-heading border-bottom bg-light">Test</div>
+                <div class="list-group list-group-flush">
+                    <a class="list-group-item list-group-item-action list-group-item-light p-3" href="#!">Dashboard</a>
+                    <a class="list-group-item list-group-item-action list-group-item-light p-3" href="#!">Shortcuts</a>
+                    <a class="list-group-item list-group-item-action list-group-item-light p-3" href="#!">Overview</a>
+                    <a class="list-group-item list-group-item-action list-group-item-light p-3" href="#!">Events</a>
+                    <a class="list-group-item list-group-item-action list-group-item-light p-3" href="#!">Profile</a>
+                    <a class="list-group-item list-group-item-action list-group-item-light p-3" href="#!">Status</a>
+                </div>
+            </div>
+            
+            <!-- Page content wrapper-->
+            <div id="page-content-wrapper">
+                <!-- Top navigation-->
+                <nav class="navbar navbar-expand-lg custom-navbar border-bottom ">
+                    <div class="container-fluid">
+                        
+                        <div class="d-flex align-items-center">
+                            <button id="sidebarToggle"><span class="navbar-toggler-icon"></span></button>
+                            <h4 class="custom-test ml-2" data-bs-toggle="collapse">TEST</h4>
+                          </div>
+                        <form class="form-inline ml-auto d-none d-lg-flex"> <!-- Agregamos las clases 'd-none d-lg-flex' para ocultar en pantallas pequeñas y mostrar en pantallas grandes -->
+                            <input class="form-control mr-sm-2 custom-input" type="search" placeholder="Buscar" aria-label="Search">
+                            <div class="d-none d-lg-flex">
+                             <button class="btn button-customGear">
+                                  <span class="bi bi-gear-fill "></span> <!-- Agrega el icono que desees -->
+                             </button>
+                            </div>
+                        </form>
+                        
+                        <div class="d-flex justify-content-between">
+                            <div>
+                              <button class="btn button-custom me-2">
+                                <span class="bi bi-bell-fill"></span>
+                              </button>
+                            </div>
+                            <div class="d-none d-lg-flex">
+                              <button class="btn button-custom me-2">
+                                <span class="bi bi-chat-dots-fill"></span>
+                              </button>
+                              <button class="btn button-custom me-2">
+                                <span class="bi bi-gift-fill"></span>
+                              </button>
+                            </div>
+                          </div>
+                        <button  type="button"  data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span>Profile</span></button>
+                        
+                       
+                    </div>
+                </nav>
+                <nav  class="navbar navbar-expand-lg custom-navbar2 border-bottom ">
+                    <div>
+                        <p class="custom-test2" data-bs-toggle="collapse">Dashboard/</p>
+                    </div>
+                </nav>
+                <!-- Page content-->
+                
+                <div class="container-fluid">
+                    <div class="content">
+
+
+                        <div class="container">
+
+                            <div class="row">
+
+                                <div class="col-md-6 col-12 text-center">
+                                    <br><br>
+                                    <div class="row">
+                                      <div class="col text-center">
+                                        <img src="Graficos/grapf1.png" class="img-fluid" style="width: 640px; height: 400px; " !important alt="Imagen">
+                                      </div>
+                                    </div>
+                                    <br>
+                                    
+                                    <div class="row mb-4 ">
+                                      <div class="col-md-6 col-12 text-center">
+                                        <img src="Graficos/grapf2.png" class="img-fluid" style="width: 560px; height: 200px; ">
+                                      </div>
+                                      
+                                      <div class="col-md-6 col-12 text-center">
+                                        <img src="Graficos/grapf3.png" class="img-fluid" style="width: 560px; height: 200px; ">
+                                      </div>
+                                    </div>
+
+                                    
+                                    <div class="row mb-4 ">
+                                        
+                                        <div class="col-md-6 col-12 text-center">
+                                          <img src="Graficos/grapf4.png" class="img-fluid mobile-hide" style="width: 560px; height: 200px; ">
+                                        </div>
+                                        
+                                        <div class="col-md-6 col-12 text-center">
+                                          <img src="Graficos/grapf5.png" class="img-fluid" style="width: 560px; height: 200px; ">
+                                        </div>
+                                    </div>
+                                  </div>
+                            
+                                  <div class="col-md-6 col-12 column">
+                                    <div class="row">
+                                      <br>
+                                      
+                                      <div class="col text-center">
+                                        <br><br>
+                                        <img src="Graficos/grapf6.png" class="img-fluid mobile-hide" style="width: 570px; height: 278px;">
+                                      </div>
+                                    </div>
+                                    <div class="row">
+                                      <div class="col-md-12 text-center">
+                                        <br>
+                                        <h3 class="Event">Event Galleries</h3>
+                                        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                                            <ol class="carousel-indicators"></ol>
+                                            <div class="carousel-inner"></div>
+                                            <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
+                                              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                              <span class="sr-only"></span>
+                                            </a>
+                                            <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
+                                              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                              <span class="sr-only"></span>
+                                            </a>
+                                          </div>
+                                          <br><br>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Bootstrap core JS-->
+        
+        <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+        <script>
+            // Obtener referencias a los elementos del carrusel
+            const carouselIndicators = document.querySelector('.carousel-indicators');
+            const carouselInner = document.querySelector('.carousel-inner');
+          
+            // Obtener las imágenes de la API de Lorem Picsum
+            fetch('https://picsum.photos/v2/list?page=1&limit=3')
+              .then(response => response.json())
+              .then(data => {
+                data.forEach((image, index) => {
+                  // Crear indicadores
+                  const indicator = document.createElement('li');
+                  indicator.setAttribute('data-target', '#myCarousel');
+                  indicator.setAttribute('data-slide-to', index);
+                  if (index === 0) {
+                    indicator.classList.add('active');
+                  }
+                  carouselIndicators.appendChild(indicator);
+          
+                  // Crear elementos de carrusel
+                  const carouselItem = document.createElement('div');
+                  carouselItem.classList.add('carousel-item');
+                  if (index === 0) {
+                    carouselItem.classList.add('active');
+                  }
+                  const img = document.createElement('img');
+                  img.src = image.download_url;
+                  img.alt = `Slide ${index + 1}`;
+
+                  img.style.width = '570px'; // Establece el ancho deseado
+                  img.style.height = '500px'; // Establece la altura deseada
+                  img.style.borderRadius = '10px'; //
+
+                  carouselItem.appendChild(img);
+                  carouselInner.appendChild(carouselItem);
+                });
+              })
+              .catch(error => console.error(error));
+          </script>
+          
+            
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+    </body>
+</html>
